@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ## Запуск на демонстрационном файле
 
 ```bash
-python main.py examples/sample_sales_report.xlsx
+python main.py sample_sales_report.xlsx
 ```
 
 Результат будет сохранён по пути:
@@ -73,13 +73,13 @@ output/analysis_result.xlsx
 Для выбора другого года и артикула:
 
 ```bash
-python main.py examples/sample_sales_report.xlsx --year 2023 --article ack
+python main.py sample_sales_report.xlsx --year 2023 --article ack
 ```
 
 Для выбора имени итогового файла:
 
 ```bash
-python main.py examples/sample_sales_report.xlsx --output output/my_result.xlsx
+python main.py sample_sales_report.xlsx --output output/my_result.xlsx
 ```
 
 ## Результат работы
@@ -95,7 +95,7 @@ python main.py examples/sample_sales_report.xlsx --output output/my_result.xlsx
 
 Оригинальный отчёт Wildberries в репозиторий не добавляется.
 
-Файл `examples/sample_sales_report.xlsx` содержит полностью синтетические данные, созданные только для демонстрации работы программы. Перед публикацией собственных файлов необходимо удалить или заменить:
+Файл `sample_sales_report.xlsx` содержит полностью синтетические данные, созданные только для демонстрации работы программы. Перед публикацией собственных файлов необходимо удалить или заменить:
 
 - реальные артикулы и названия брендов;
 - баркоды, `nm_id`, `chrtID`;
