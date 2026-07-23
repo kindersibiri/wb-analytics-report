@@ -15,7 +15,7 @@ output/
 # Не публикуем реальные Excel-отчёты.
 # В репозитории разрешён только синтетический пример.
 *.xlsx
-!examples/sample_sales_report.xlsx
+!sample_sales_report.xlsx
 
 # Служебные файлы ОС и редакторов
 .DS_Store
