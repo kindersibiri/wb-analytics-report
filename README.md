@@ -28,14 +28,14 @@
 
 ```text
 wb-analytics-report/
-├── main.py
-├── README.md
-├── requirements.txt
 ├── .gitignore
-├── examples/
-│   └── sample_sales_report.xlsx
-└── screenshots/
-    └── result_preview.png
+├── README.md
+├── main.py
+├── requirements.txt
+├── result_preview.png
+├── sample_sales_report.xlsx
+└── output/
+    └── .gitkeep
 ```
 
 ## Установка
